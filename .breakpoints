@@ -1,0 +1,18 @@
+{
+  "files": {
+    "auth.js": [
+      {
+        "id": "406fabdf-19a4-4d46-ad02-74393d7aec00",
+        "line": 32,
+        "version": 515,
+        "index": 1083
+      },
+      {
+        "id": "9bec7c26-acd3-4853-86d8-5649c4919212",
+        "line": 37,
+        "version": 515,
+        "index": 1202
+      }
+    ]
+  }
+}
