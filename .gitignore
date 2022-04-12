@@ -6,3 +6,8 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# Repl Config files
+.breakpoints
+.replit
+replit.nix
