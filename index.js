@@ -54,7 +54,9 @@ app.get('/protected', isLoggedIn, (req, res) => {
 
 app.get('/logout', (req, res) => {
   req.logout();
+  // Destroy is used to destroy server side sessions.
   //req.session.destroy();
+  // session = null is used to delete client side session.
   req.session = null;
   res.send('Goodbye!');
   //res.redirect('/');

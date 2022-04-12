@@ -28,7 +28,7 @@ passport.serializeUser(function(user, done) {
     displayName:user.displayName,
     photo : user.photos[0].value,
   }
-  console.log(userData)
+  //console.log(userData)
   done(null, userData);
 });
 
